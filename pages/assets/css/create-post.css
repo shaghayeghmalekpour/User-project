@@ -1,0 +1,24 @@
+
+.main-content .form-container{
+    width: 50%;
+    padding: 24px;
+    margin: auto;
+    background: pink;
+}
+
+.form-container form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.form-container form>input[type = text] , select{
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;  
+}
+
+.form-container form>input[type = submit]{
+    border:none;
+    padding: 8px;
+}

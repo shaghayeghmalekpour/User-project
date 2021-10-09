@@ -1,0 +1,47 @@
+.container .main-content{
+    height: 50vh;
+}
+
+.container .main-posts{
+    background: blue;
+    padding: 24px 24px 24px 324px;
+    width: 100%;
+    height: 50vh;
+    transition: all ease .3s;
+}
+
+.container .main-posts.expand{
+    padding-left: 24px;
+}
+
+.main-posts .post-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-posts .post-list .pl-column{
+    width: 25%;
+    padding: 25px;
+}
+
+.pl-column .card{
+    position: relative;
+    height: 300px;
+    background: white;
+    padding: 12px;
+    overflow: hidden;
+}
+
+.pl-column .more{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    transition: all ease 0.2s;
+    background: white;
+}
+.card:hover .more{
+    top: 0;
+}

@@ -1,0 +1,55 @@
+.container .main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+    background: none;
+}
+.container .main-content.expand{
+    padding-left: 24px;
+}
+
+.card{
+    border: 1px solid #455545;
+    padding: 5px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.more{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    padding: 12px;
+    transition: all ease 0.2s;
+}
+.more button{
+    display: block;
+    margin: 150px auto;
+}
+.post-list{
+display: flex;
+flex-wrap: wrap;
+}
+
+.post-list .pl-column{
+    width: 25%;
+    padding: 12px;
+}
+.pl-column p{
+    overflow: hidden;
+    height: 20%;
+}
+.postcard-img{
+    background: rgb(224, 221, 221) no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 70%;
+}
+.card button{
+    width: 60px;
+}
